@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #1F2937;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;  
+}
+ .nav-item{
+    display: flex;
+    align-items: center;
+    
+ }
+.link{
+   display: flex;
+   margin-right: 100px;
+}
+.link li:first-of-type{
+    margin-right: 60px;
+}
+.link li:last-of-type{
+    margin-left: 60px;
+}
+
+.link>li>a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color: #F9FAF8;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.discription{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    background-color: #1F2937;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.discription div h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
+.discription div p{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.text-button{
+    background-color:rgb(52, 187, 231);
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;   
+}
+
+.text>h1{
+    font-size: 35px;
+
+}
+
+.information{
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.information>div>h1{
+   font-size: 36px;
+   font-weight: bold;
+   color: #1F2937;
+   text-align: center;
+}
+.info-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-item{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+   
+   
+}
+.img-first{
+    margin-left: 80px;
+}
+
+.info-img{
+    width: 50%;
+    border-radius: 20px;
+    margin-left: 60px;
+   
+}
+
+.info-item >div >p{
+    margin-right: 5px;
+    text-align: center;
+}
+.about{
+    background-color:#E5E7EB;
+    text-align: left;
+    padding: 50px;
+}
+.about p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: italic;
+    color: #1F2937;
+}
+strong{
+    display: flex;
+    justify-content: right;
+    margin-right: 300px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color:rgb(5, 161, 212);
+    margin: 50px;
+   padding-bottom: 30px;
+}
+.contact-text{
+    padding-right: 20px;
+    color: white;
+}
+.contact-button{
+    padding:15px;
+    color: white;
+    font-size: 15px;
+    background-color:rgb(52, 187, 231);
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
